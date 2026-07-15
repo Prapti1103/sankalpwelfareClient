@@ -13,7 +13,7 @@ export default function Home() {
         <div className="hero-rays" />
         <div className="container">
           <div>
-            <span className="hero-eyebrow">Registrations Open · 2026</span>
+            <span className="hero-eyebrow">Registrations Open · 2027</span>
             <h1>
               State Level <em>General Knowledge</em><br /> Examination for Std 1st – 8th
             </h1>
