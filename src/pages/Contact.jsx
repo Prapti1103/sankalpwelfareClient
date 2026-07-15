@@ -30,7 +30,7 @@ export default function Contact() {
 
               <div className="contact-item">
                 <div className="icon-badge"><IconMapPin /></div>
-                <div><b>Office Address</b><p style={{ color: "var(--ink-soft)", marginTop: 4 }}>B5 Karan Court, Ahilyanagar - 414001, Maharashtra, India</p></div>
+                <div><b>Office Address</b><p style={{ color: "var(--ink-soft)", marginTop: 4 }}>Swargate,Pune - 414001, Maharashtra, India</p></div>
               </div>
               <div className="contact-item">
                 <div className="icon-badge"><IconPhone /></div>

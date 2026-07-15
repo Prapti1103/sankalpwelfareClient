@@ -37,7 +37,7 @@ export default function Home() {
           <div className="hero-badge-card">
             <img src={logo} alt="Sankalp Foundation" />
             <h3>Sankalp Foundation</h3>
-            <div className="loc">Ahilyanagar, Maharashtra</div>
+            <div className="loc">Pune, Maharashtra</div>
             <span className="exam-pill">GK Exam 2026 · 16 August</span>
           </div>
         </div>
