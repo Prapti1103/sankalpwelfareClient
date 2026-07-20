@@ -1,0 +1,129 @@
+/* ===================================
+   Privacy Policy
+   Sankalp Foundation
+=================================== */
+
+.privacy-page {
+  background: #f5f7fb;
+  min-height: 100vh;
+  padding-bottom: 70px;
+}
+
+/* Hero */
+
+.privacy-banner {
+  padding: 90px 20px 45px;
+  text-align: center;
+}
+
+.privacy-heading {
+  max-width: 900px;
+  margin: auto;
+  padding: 22px 30px;
+  border-radius: 18px;
+  background: linear-gradient(135deg, #2147d7, #6b21a8);
+  color: #fff;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, .12);
+}
+
+.privacy-heading h1 {
+  margin: 0;
+  font-size: 42px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.privacy-subtitle {
+  margin-top: 25px;
+  color: #555;
+  font-size: 17px;
+}
+
+/* Card */
+
+.privacy-card {
+  max-width: 1050px;
+  margin: 20px auto 0;
+  background: #fff;
+  border-radius: 20px;
+  padding: 45px;
+  box-shadow: 0 12px 35px rgba(0,0,0,.08);
+}
+
+.privacy-card p {
+  margin: 0 0 22px;
+  color: #444;
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+/* Contact */
+
+.privacy-footer {
+  margin-top: 35px;
+  padding-top: 25px;
+  border-top: 1px solid #e5e7eb;
+}
+
+.privacy-footer h3 {
+  color: #2147d7;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.privacy-footer p {
+  margin-bottom: 10px;
+}
+
+/* Hover */
+
+.privacy-card:hover {
+  transform: translateY(-4px);
+  transition: .3s ease;
+  box-shadow: 0 18px 40px rgba(0,0,0,.10);
+}
+
+/* Responsive */
+
+@media (max-width:992px){
+
+  .privacy-card{
+    padding:35px;
+  }
+
+}
+
+@media (max-width:768px){
+
+  .privacy-banner{
+    padding:70px 15px 35px;
+  }
+
+  .privacy-heading{
+    padding:18px;
+    border-radius:14px;
+  }
+
+  .privacy-heading h1{
+    font-size:30px;
+  }
+
+  .privacy-subtitle{
+    font-size:15px;
+    margin-top:18px;
+  }
+
+  .privacy-card{
+    padding:25px;
+    border-radius:14px;
+  }
+
+  .privacy-card p{
+    font-size:15px;
+  }
+
+  .privacy-footer h3{
+    font-size:20px;
+  }
+
+}

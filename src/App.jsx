@@ -10,12 +10,17 @@ import StudentSignup from "./pages/StudentSignup";
 import StudentDashboard from "./pages/student/StudentDashboard";
 import AdminDashboard from "./pages/admin/AdminDashboard";
 import CoordinatorDashboard from "./pages/coordinator/CoordinatorDashboard";
-
+import PrivacyPolicy from "./pages/PrivacyPolicy" ;
+import RefundPolicy from "./pages/RefundPolicy";
+import TermsOfUse from "./pages/TermsOfUse";  
 const PAGES = {
   "/": Home,
   "/about": About,
   "/result": ResultPage,
   "/contact": Contact,
+   "/privacypolicy": PrivacyPolicy,
+  "/refundpolicy": RefundPolicy,
+  "/termsofuse": TermsOfUse,
   "/login": Login,
   "/signup": StudentSignup,
   "/student": StudentDashboard,

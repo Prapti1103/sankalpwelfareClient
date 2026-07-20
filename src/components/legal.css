@@ -1,0 +1,201 @@
+.legalHero{
+
+    padding:140px 0 80px;
+
+    background:#202760;
+
+    color:#fff;
+
+    text-align:center;
+}
+
+.legalTag{
+
+    display:inline-block;
+
+    padding:8px 22px;
+
+    border:1px solid rgba(255,186,73,.6);
+
+    border-radius:30px;
+
+    color:#ffba49;
+
+    font-size:14px;
+
+    font-weight:600;
+
+    letter-spacing:2px;
+
+    margin-bottom:25px;
+}
+
+.legalHero h1{
+
+    font-size:48px;
+
+    margin-bottom:18px;
+
+    font-weight:700;
+}
+
+.legalHero p{
+
+    max-width:700px;
+
+    margin:auto;
+
+    font-size:18px;
+
+    opacity:.9;
+}
+
+.legalSection{
+
+    background:#f8f9fc;
+
+    padding:70px 0;
+}
+
+.legalCard{
+
+    background:#fff;
+
+    border-radius:24px;
+
+    padding:50px;
+
+    box-shadow:0 12px 40px rgba(0,0,0,.08);
+
+    margin-bottom:40px;
+}
+
+.legalInfo{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    padding:20px;
+
+    background:#fdf6ea;
+
+    border-radius:14px;
+
+    margin-bottom:40px;
+}
+
+.legalInfo span{
+
+    display:block;
+
+    color:#777;
+
+    font-size:14px;
+}
+
+.legalInfo strong{
+
+    color:#202760;
+
+    font-size:17px;
+}
+
+.legalCard h2{
+
+    color:#202760;
+
+    margin-top:35px;
+
+    margin-bottom:15px;
+}
+
+.legalCard p{
+
+    line-height:1.9;
+
+    color:#555;
+}
+
+.legalCard ul{
+
+    padding-left:20px;
+}
+
+.legalCard li{
+
+    margin-bottom:12px;
+
+    color:#555;
+}
+
+.legalContact{
+
+    background:#202760;
+
+    color:#fff;
+
+    border-radius:24px;
+
+    padding:40px;
+
+    text-align:center;
+}
+
+.legalContact h3{
+
+    font-size:28px;
+
+    margin-bottom:15px;
+}
+
+.contactRow{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:40px;
+
+    margin-top:25px;
+
+    flex-wrap:wrap;
+}
+
+@media(max-width:768px){
+
+.legalHero{
+
+padding:120px 20px 60px;
+
+}
+
+.legalHero h1{
+
+font-size:34px;
+
+}
+
+.legalCard{
+
+padding:25px;
+
+}
+
+.legalInfo{
+
+flex-direction:column;
+
+gap:15px;
+
+}
+
+.contactRow{
+
+flex-direction:column;
+
+gap:15px;
+
+}
+
+}

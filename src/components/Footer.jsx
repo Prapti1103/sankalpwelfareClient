@@ -61,9 +61,12 @@ export default function Footer() {
         <div className="footer-bottom">
           <span>© {new Date().getFullYear()} Sankalp Foundation. All rights reserved.</span>
           <div style={{ display: "flex", gap: 18 }}>
-            <a href="#/about">Privacy Policy</a>
-            <a href="#/about">Terms of Use</a>
-            <a href="#/contact">Support</a>
+           
+         
+            <a href="#/privacypolicy">Privacy Policy</a>
+<a href="#/termsofuse">Terms of Use</a>
+<a href="#/refundpolicy">Refund Policy</a>
+<a href="#/contact">Support</a>
           </div>
         </div>
       </div>
